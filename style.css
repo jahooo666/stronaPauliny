@@ -1,19 +1,58 @@
-body {
-    background-color: #FFCC66;
-    background-image: url("lab.jpg");
-    background-repeat: no-repeat;
+body { background-color: #FFDDFF;
+    background-image: url("b.gif");
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
+    padding: 0px;
+    margin: 10px;
+    margin-bottom: 0px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 2em;
+    color: hotpink;
 }
 
 h1 {
-    color: #990000;
-    background-color: #FC9804;
+    text-align: center;
 }
-h2 {font-family: arial, verdana, sans-serif;}
+h2 {font-family: arial, verdana, sans-serif;
+    text-align: center;
+}
 
-h3 {font-family: "Times New Roman", serif; font-style: italic;}
+h3 {font-family: "Times New Roman", serif; font-style: italic;
+    text-align: center;
+}
 
-h4 {font-variant: small-caps;}
+h4 {text-align: center;
+    font-variant: small-caps;}
 
-p {font-size: 2em;}
+p {text-align: center;
+    font-size: 2em;
+}
+
+#header{
+    background-color: lightcoral;
+    color: white;
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 5px dotted white;
+    font-family: "Arial Black";
+}
+
+#footer{
+    display: block;
+    border-top: 3px solid white ;
+    //width: 100%;
+    background-color: indianred;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
