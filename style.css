@@ -10,9 +10,12 @@ body { background-color: #FFDDFF;
 }
 
 a{
-    text-decoration: none;
     font-size: 2em;
-    color: hotpink;
+    color: white;
+}
+
+a:active, a:hover{
+    background-color: crimson;
 }
 
 h1 {
@@ -20,6 +23,7 @@ h1 {
 }
 h2 {font-family: arial, verdana, sans-serif;
     text-align: center;
+    font-size: 2em;
 }
 
 h3 {font-family: "Times New Roman", serif; font-style: italic;
@@ -30,29 +34,76 @@ h4 {text-align: center;
     font-variant: small-caps;}
 
 p {text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #header{
     background-color: lightcoral;
     color: white;
     display: block;
-    width: 400px;
-    height: 100px;
+    width: 730px;
+    height: 180px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
     border: 5px dotted white;
     font-family: "Arial Black";
+    font-size: 2em;
+}
+
+#left{
+    margin: 10px;
+    background-color: rgba(255, 133, 106, 0.65);
+    display: block;
+    width: 330px;
+    padding: 20px;
+    border: 5px dashed white;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    float: left;
+}
+
+#middle{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    background-color: lightcoral;
+    color: white;
+    width: 800px;
+    padding: 8px;
+    display: block;
+    margin: 10px;
+    float: left;
+}
+#left a{
+    color: white;
 }
 
 #footer{
     display: block;
     border-top: 3px solid white ;
-    //width: 100%;
-    background-color: indianred;
+    width: 100%;
+    background-color: rgba(255, 133, 106, 0.95);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 10px;
+    float: left;
+}
+
+#header h1{
+   display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.lapa{
+    margin: 40px;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+ul{
+    list-style-image: url("dog-paw-hi-small2.gif");
 }
