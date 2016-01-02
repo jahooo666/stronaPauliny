@@ -1,0 +1,19 @@
+body {
+    background-color: #FFCC66;
+    background-image: url("lab.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+h1 {
+    color: #990000;
+    background-color: #FC9804;
+}
+h2 {font-family: arial, verdana, sans-serif;}
+
+h3 {font-family: "Times New Roman", serif; font-style: italic;}
+
+h4 {font-variant: small-caps;}
+
+p {font-size: 2em;}
