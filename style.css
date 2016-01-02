@@ -107,3 +107,15 @@ p {text-align: center;
 ul{
     list-style-image: url("dog-paw-hi-small2.gif");
 }
+
+table{
+    border: 2px solid white;
+    table-border-color-light: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: black;
+    color: #FFDDFF;
+
+}
