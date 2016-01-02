@@ -9,16 +9,16 @@ body { background-color: #FFDDFF;
 
 }
 
-a{
+a{  /*Style dla linków*/
     font-size: 2em;
     color: white;
 }
 
-a:active, a:hover{
+a:active, a:hover{  /* style gdy link jest klinięty albo gdy najechaliśmy na niego myszką */
     background-color: crimson;
 }
 
-h1 {
+h1 {    /*naglowki*/
     text-align: center;
 }
 h2 {font-family: arial, verdana, sans-serif;
@@ -33,11 +33,12 @@ h3 {font-family: "Times New Roman", serif; font-style: italic;
 h4 {text-align: center;
     font-variant: small-caps;}
 
-p {text-align: center;
+p {/*paragrafy*/
+    text-align: center;
     font-size: 1.5em;
 }
 
-#header{
+#header{        /*style dla elementu o id header*/
     background-color: lightcoral;
     color: white;
     display: block;
@@ -50,7 +51,7 @@ p {text-align: center;
     font-size: 2em;
 }
 
-#left{
+#left{         /*style dla elementu o id left- czyli menu po lewej*/
     margin: 10px;
     background-color: rgba(255, 133, 106, 0.65);
     display: block;
@@ -62,7 +63,7 @@ p {text-align: center;
     float: left;
 }
 
-#middle{
+#middle{         /*style dla elementu o id middle czyli glownej tresci*/
     border: 2px;
     border-style: solid;
     border-color: white;
@@ -74,11 +75,11 @@ p {text-align: center;
     margin: 10px;
     float: left;
 }
-#left a{
+#left a{    /*style dla linków zawartych wewnątrz elementu o id left- czyli wszystkie linki w menu*/
     color: white;
 }
 
-#footer{
+#footer{       /*style dla elementu o id footer czyli stopki na dole*/
     display: block;
     border-top: 3px solid white ;
     width: 100%;
@@ -90,7 +91,7 @@ p {text-align: center;
     float: left;
 }
 
-#header h1{
+#header h1{    /*style dla nagłówków zawartych wewnątrz elementu o id header- tytuł na górze*/
    display: block;
     float: left;
     margin-left: auto;
@@ -98,13 +99,14 @@ p {text-align: center;
 }
 
 
-.lapa{
+.lapa{  /*style dla klasy lapa- obrazek łapy na górze */
     margin: 40px;
     float: left;
     width: 100px;
     height: 100px;
 }
-ul{
+
+ul{  /*ustawienie łapki jako punktor w liście*/
     list-style-image: url("dog-paw-hi-small2.gif");
 }
 
@@ -117,5 +119,4 @@ table{
     font-size: 25px;
     text-shadow: black;
     color: #FFDDFF;
-
 }
