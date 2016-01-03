@@ -9,6 +9,7 @@ body { background-color: #FFDDFF;
 
 }
 
+
 a{  /*Style dla linków*/
     font-size: 2em;
     color: white;
@@ -18,10 +19,15 @@ a:active, a:hover{/* style gdy link jest klinięty albo gdy najechaliśmy na nie
     background-color: crimson;
 }
 
-/*naglowki od h1-h4*/
-h1 {
+p a, table a{ /*link wewnatrz paragrafu tekstu i link wewnatrz tabelki*/
+    font-size: 1.3em;
+}
+
+/*naglowki od h1-h5*/
+h1,h2,h3,h4,h5{
     text-align: center;
 }
+
 h2 {font-family: arial, verdana, sans-serif;
     text-align: center;
     font-size: 2em;
@@ -29,6 +35,7 @@ h2 {font-family: arial, verdana, sans-serif;
 
 h3 {font-family: "Times New Roman", serif; font-style: italic;
     text-align: center;
+    font-size: 1.8em;
 }
 
 h4 {text-align: center;
@@ -51,6 +58,12 @@ p {text-align: center;
     font-size: 2em;
 }
 
+
+ul{ /*style dla elementow listy zawartych wewnątrz elementu o id left- czyli w menu*/
+    list-style-image: url("images/dog-paw-hi-small2.gif"); /*ustawienie łapki jako punktor w liście*/
+    font-size: 20px;
+}
+
 #left{      /*style dla elementu o id left- czyli menu po lewej*/
     margin: 10px;
     background-color: rgba(255, 133, 106, 0.65);
@@ -60,6 +73,15 @@ p {text-align: center;
     border: 5px dashed white;
     font-family: Tahoma, sans-serif;
     font-size: 12px;
+    float: left;
+}
+#left ul{
+    list-style-image: url("images/dog-paw-hi-small2.gif"); /*ustawienie łapki jako punktor w liście*/
+    font-size: 12px;
+}
+
+#rightandmiddle{
+    display: block;
     float: left;
 }
 
@@ -77,6 +99,17 @@ p {text-align: center;
 }
 #left a{ /*style dla linków zawartych wewnątrz elementu o id left- czyli wszystkie linki w menu*/
     color: white;
+}
+
+#tabelka{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color: lightcoral;
+    display: block;
+    margin: 10px;
+    //float: left;
 }
 
 #footer{  /*style dla elementu o id footer czyli stopki na dole*/
@@ -105,9 +138,6 @@ p {text-align: center;
     width: 100px;
     height: 100px;
 }
-ul{ /*ustawienie łapki jako punktor w liście*/
-    list-style-image: url("images/dog-paw-hi-small2.gif");
-}
 
 table{
     border: 2px solid white;
@@ -123,4 +153,12 @@ table{
 img{
     margin-left: auto;
     margin-right: auto;
+}
+
+i{
+    font-size: 25px;
+}
+dd{
+    padding:10px;
+    font-size: 20px;
 }
