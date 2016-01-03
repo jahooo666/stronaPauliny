@@ -1,5 +1,5 @@
 body { background-color: #FFDDFF;
-    background-image: url("b.gif");
+    background-image: url("images/b.gif");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -105,7 +105,7 @@ p {text-align: center;
     height: 100px;
 }
 ul{
-    list-style-image: url("dog-paw-hi-small2.gif");
+    list-style-image: url("images/dog-paw-hi-small2.gif");
 }
 
 table{
@@ -117,5 +117,9 @@ table{
     font-size: 25px;
     text-shadow: black;
     color: #FFDDFF;
+}
 
+img{
+    margin-left: auto;
+    margin-right: auto;
 }
