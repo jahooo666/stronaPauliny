@@ -9,16 +9,16 @@ body { background-color: #FFDDFF;
 
 }
 
-a{  /*Style dla linków*/
+a{
     font-size: 2em;
     color: white;
 }
 
-a:active, a:hover{  /* style gdy link jest klinięty albo gdy najechaliśmy na niego myszką */
+a:active, a:hover{
     background-color: crimson;
 }
 
-h1 {    /*naglowki*/
+h1 {
     text-align: center;
 }
 h2 {font-family: arial, verdana, sans-serif;
@@ -33,12 +33,11 @@ h3 {font-family: "Times New Roman", serif; font-style: italic;
 h4 {text-align: center;
     font-variant: small-caps;}
 
-p {/*paragrafy*/
-    text-align: center;
+p {text-align: center;
     font-size: 1.5em;
 }
 
-#header{        /*style dla elementu o id header*/
+#header{
     background-color: lightcoral;
     color: white;
     display: block;
@@ -51,7 +50,7 @@ p {/*paragrafy*/
     font-size: 2em;
 }
 
-#left{         /*style dla elementu o id left- czyli menu po lewej*/
+#left{
     margin: 10px;
     background-color: rgba(255, 133, 106, 0.65);
     display: block;
@@ -63,7 +62,7 @@ p {/*paragrafy*/
     float: left;
 }
 
-#middle{         /*style dla elementu o id middle czyli glownej tresci*/
+#middle{
     border: 2px;
     border-style: solid;
     border-color: white;
@@ -75,11 +74,11 @@ p {/*paragrafy*/
     margin: 10px;
     float: left;
 }
-#left a{    /*style dla linków zawartych wewnątrz elementu o id left- czyli wszystkie linki w menu*/
+#left a{
     color: white;
 }
 
-#footer{       /*style dla elementu o id footer czyli stopki na dole*/
+#footer{
     display: block;
     border-top: 3px solid white ;
     width: 100%;
@@ -91,7 +90,7 @@ p {/*paragrafy*/
     float: left;
 }
 
-#header h1{    /*style dla nagłówków zawartych wewnątrz elementu o id header- tytuł na górze*/
+#header h1{
    display: block;
     float: left;
     margin-left: auto;
@@ -99,14 +98,13 @@ p {/*paragrafy*/
 }
 
 
-.lapa{  /*style dla klasy lapa- obrazek łapy na górze */
+.lapa{
     margin: 40px;
     float: left;
     width: 100px;
     height: 100px;
 }
-
-ul{  /*ustawienie łapki jako punktor w liście*/
+ul{
     list-style-image: url("dog-paw-hi-small2.gif");
 }
 
@@ -119,4 +117,5 @@ table{
     font-size: 25px;
     text-shadow: black;
     color: #FFDDFF;
+
 }
